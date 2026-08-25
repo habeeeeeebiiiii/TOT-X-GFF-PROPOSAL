@@ -1,0 +1,128 @@
+{
+  "theme": "dark",
+  "project_info": {
+    "name": "Triumphs of Talent × Grand Food Fest Proposal",
+    "goal": "Convince Triumphs of Talent to present a new award show inside Grand Food Fest. Pitch a permanent physical plaque / digital badge over a single-night award.",
+    "vibe": "Premium, restrained, architectural, award-certificate, highly emotional and prestigious."
+  },
+  "typography": {
+    "fonts": {
+      "headline": "Cormorant Garamond, serif",
+      "body": "Outfit, sans-serif"
+    },
+    "hierarchy": {
+      "h1": "text-4xl sm:text-5xl lg:text-6xl font-light tracking-tighter leading-[1.1]",
+      "h2": "text-3xl sm:text-4xl lg:text-5xl font-light tracking-tight leading-snug",
+      "h3": "text-xl sm:text-2xl lg:text-3xl font-normal tracking-tight",
+      "body": "text-base lg:text-lg font-light leading-relaxed tracking-wide text-[#f7f4ee]/80",
+      "overline": "text-xs uppercase tracking-[0.2em] font-medium text-[#c9a24b]"
+    },
+    "google_fonts_url": "https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600&family=Outfit:wght@300;400;500&display=swap"
+  },
+  "colors": {
+    "black": "#0d0d0d",
+    "charcoal": "#1c1a17",
+    "ivory": "#f7f4ee",
+    "gold": "#c9a24b",
+    "red": "#b90505",
+    "usage": {
+      "bg_primary": "#0d0d0d",
+      "bg_secondary": "#1c1a17",
+      "text_primary": "#f7f4ee",
+      "text_muted": "rgba(247, 244, 238, 0.6)",
+      "accent": "#c9a24b",
+      "accent_danger_tiny": "#b90505"
+    }
+  },
+  "media_and_illustrations": {
+    "rules": [
+      "CRITICAL: NO PHOTOGRAPHY OR RASTER IMAGES ALLOWED.",
+      "Every visual MUST BE an inline hand-drawn SVG illustration.",
+      "Style: Single-weight stroke (1px to 1.5px), NO fill except for occasional #c9a24b (Gold) tiny accents.",
+      "Vibe: Architectural line drawing or certificate engraving."
+    ],
+    "required_svgs": [
+      "recurring_award_frame: Starts empty in Section 1. Slowly gets details across page. Fully completed in Final Section with 'Triumphs of Talent Presents'.",
+      "podium_spotlight: Spotlight cone intersecting with a podium outline.",
+      "restaurant_storefront: Line-art of a restaurant facade with a plaque clearly visible on the wall.",
+      "phone_badge: Minimalist phone outline containing a digital badge icon.",
+      "handshake: Clean, single-line handshake icon."
+    ]
+  },
+  "motion": {
+    "philosophy": "Smooth, slow, deliberate. 'Awwwards-level' kinetic typography. Nothing bouncy.",
+    "easing": "[0.76, 0, 0.24, 1]",
+    "scroll": "Lenis smooth scrolling is MANDATORY.",
+    "effects": {
+      "hero_text": "Masked line-by-line reveal using Framer Motion (y: '100%' to '0%').",
+      "parallax": "Subtle y-axis shifts on SVG illustrations during scroll.",
+      "marquee": "Slow editorial ribbon (react-fast-marquee) with Serif font and Gold/Ivory tones."
+    }
+  },
+  "layout_spacing": {
+    "padding": "Generous. py-24 to py-32 for sections. 2-3x standard spacing.",
+    "container": "max-w-6xl mx-auto px-6",
+    "grid": "Asymmetrical. Avoid center-everything. Tension through left-aligned dense text vs large right-aligned SVG art."
+  },
+  "sections": [
+    {
+      "id": "1_hero",
+      "bg": "black",
+      "content": "Headline: 'Every award you've given lasted one night. This one won't come down.' Sub: proposing the award show. Meta: '9, 10 & 11 October 2026 · Gachibowli Stadium, Hyderabad'. Button: 'See the full proposal' (scrolls down).",
+      "visual": "Empty gold award-frame SVG. Real Triumphs of Talent & Grand Food Fest logos in header/hero."
+    },
+    {
+      "id": "2_the_gap",
+      "bg": "charcoal",
+      "content": "Paragraph about single-night awards. Supporting line: 'That gap is the entire idea behind this proposal.'",
+      "visual": "spotlight/podium illustration."
+    },
+    {
+      "id": "3_permanent_recognition",
+      "bg": "black",
+      "content": "Two blocks: Culinary Awards (with full paragraphs) and Influencer Awards (with full paragraphs). Disclaimer: Named restaurants (Pista House, Shah Ghouse, Paradise, Cream Stone) are illustrative examples, not confirmed.",
+      "visual": "restaurant_storefront SVG with plaque for Culinary; phone-with-badge SVG for Influencer."
+    },
+    {
+      "id": "4_about_gff",
+      "bg": "charcoal",
+      "content": "Stats: thousands of visitors (projected) · 150+ brands · 3 nights · Gachibowli Stadium. NO specific visitor figures.",
+      "visual": "Slow editorial marquee intersecting the section."
+    },
+    {
+      "id": "5_why_tot",
+      "bg": "black",
+      "content": "Their track record: Women of Impact 2024/2025, Heroes of Hyderabad 2025.",
+      "visual": "Subtle line-art accents."
+    },
+    {
+      "id": "6_roles",
+      "bg": "charcoal",
+      "content": "4 points in full sentences (ToT brings / GFF brings / together / sponsors welcomed).",
+      "visual": "handshake line icon."
+    },
+    {
+      "id": "7_what_tot_receives",
+      "bg": "black",
+      "content": "6 points in full sentences detailing the benefits.",
+      "visual": "Partially filled award-frame SVG."
+    },
+    {
+      "id": "8_final_ask",
+      "bg": "charcoal",
+      "content": "Pricing: ₹12,00,000 Presenting Partner (shown exactly once). 'Request a meeting' mailto button to habeeb@grandfoodfest.com. Contact: Habeeb Ali, Founder & CEO, Hanfim Foods LLP · +91 93539 94283.",
+      "visual": "Completed award-frame SVG with 'Triumphs of Talent Presents'. Real logos woven in."
+    }
+  ],
+  "UNIVERSAL_GUIDELINES_FOR_MAIN_AGENT": [
+    "DO NOT use generic AI SVGs or emojis. Create high-quality custom `<svg>` paths by hand-coding coordinates to mimic architectural lines, keeping strokeWidth={1} or {1.5}.",
+    "NO PHOTOGRAPHY. Do not use the image search tool. If you use an `<img>` tag, it can ONLY be for the provided brand logos, otherwise strict SVG code.",
+    "Implement Lenis for momentum scrolling (install @studio-freight/react-lenis).",
+    "Strictly follow the typography scale: H1 MUST NOT exceed text-6xl. Use fluid typography scaling.",
+    "Ensure 'data-testid' attributes are on all interactive elements.",
+    "Use Framer Motion for the kinetic line-by-line hero reveal and scroll-triggered fade-ups.",
+    "Never center-align paragraphs. Keep long text left-aligned for editorial elegance.",
+    "Do not use generic gradients. Keep backgrounds solid #0d0d0d or #1c1a17.",
+    "Mobile MUST carry the same full text explanations as desktop, do not hide text on mobile."
+  ]
+}
