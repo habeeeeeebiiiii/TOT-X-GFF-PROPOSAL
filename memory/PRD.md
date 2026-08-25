@@ -1,7 +1,7 @@
 # PRD — Triumphs of Talent × Grand Food Fest Awards Proposal Site
 
 ## Original Problem Statement
-A premium one-page proposal website convincing Triumphs of Talent (ToT) to present a new award show — The Food, Culinary & Influencer Awards — hosted inside Grand Food Fest (9–11 Oct 2026, Gachibowli Stadium, Hyderabad). Core idea: awards so far last one night; this one leaves a permanent plaque on winning restaurants' walls and a year-long digital badge in winning influencers' bios. Grand Food Fest runs all operations; ToT brings name/credibility and may bring its own sponsors. Single goal: get a meeting. Pricing (₹12,00,000 Presenting Partner) appears exactly once, in the final section.
+A premium one-page proposal website convincing Triumphs of Talent (ToT) to present a new award show — The Food, Culinary & Influencer Awards — hosted inside Grand Food Fest (9–11 Oct 2026, Gachibowli Stadium, Hyderabad). Core idea: awards so far last one night; this one leaves a permanent plaque on winning restaurants' walls and a year-long digital badge in winning influencers' bios. Grand Food Fest runs all operations; ToT brings name/credibility and may bring its own sponsors. Single goal: get a meeting. Pricing was removed entirely (2 Aug 2026, per user) — the site now pitches "let's talk further" only.
 
 ## Hard Rules (from user)
 - No photography anywhere. All visuals are hand-drawn single-stroke line-art inline SVGs (gold/ivory on black/charcoal), certificate-engraving style.
@@ -32,10 +32,11 @@ A premium one-page proposal website convincing Triumphs of Talent (ToT) to prese
 - Kinetic hero with masked line reveal, slow parallax on the empty award frame.
 - Progressive award-frame completion across the page (3 stages).
 - Slow editorial marquee between The Idea and About GFF.
-- Pricing card ₹12,00,000 shown once in final section; Request a meeting → mailto with prefilled subject.
+- Pricing fully REMOVED per user request — final section is a pure meeting ask with an italic closing line, no figures anywhere.
+- "A first look at the plaque" reveal added to the Culinary Awards block: detailed engraved line-art plaque (PlaqueDesign SVG) in a framed treatment; real plaque photo can be swapped into the same frame once the user shares it.
 - Contact block: Habeeb Ali, Founder & CEO, Hanfim Foods LLP · +91 93539 94283 · habeeb@grandfoodfest.com.
 - data-testid attributes on all interactive/key elements.
-- Verified: desktop + mobile screenshots of all sections, pricing, mailto href, headline render.
+- Verified: desktop + mobile screenshots of all sections, plaque reveal, pricing removal (no ₹ on page), mailto href.
 
 ## Backlog
 - P1: Plaque/badge design preview gallery (line-art) once designs exist.

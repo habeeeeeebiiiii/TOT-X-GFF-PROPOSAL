@@ -185,3 +185,108 @@ export const PlaqueMark = ({ className = "" }) => (
     <path d="M24 13 l2 5 5 2 -5 2 -2 5 -2 -5 -5 -2 5 -2 z" />
   </svg>
 );
+
+
+export const PlaqueDesign = ({ className = "" }) => (
+  <svg
+    viewBox="0 0 520 340"
+    fill="none"
+    className={className}
+    stroke="currentColor"
+    strokeWidth={SW}
+    strokeLinecap="round"
+    strokeLinejoin="round"
+    data-testid="plaque-design-illustration"
+  >
+    <rect x="14" y="14" width="492" height="312" />
+    <rect x="30" y="30" width="460" height="280" />
+    <path d="M14 44 V14 H44" strokeWidth="2" />
+    <path d="M476 14 H506 V44" strokeWidth="2" />
+    <path d="M506 296 V326 H476" strokeWidth="2" />
+    <path d="M44 326 H14 V296" strokeWidth="2" />
+
+    <text
+      x="260"
+      y="78"
+      textAnchor="middle"
+      fill="currentColor"
+      stroke="none"
+      fontFamily="'Cormorant Garamond', serif"
+      fontSize="21"
+      letterSpacing="5"
+    >
+      TRIUMPHS OF TALENT
+    </text>
+    <text
+      x="260"
+      y="100"
+      textAnchor="middle"
+      fill="currentColor"
+      stroke="none"
+      fontFamily="'Outfit', sans-serif"
+      fontSize="9"
+      letterSpacing="6"
+    >
+      × GRAND FOOD FEST ×
+    </text>
+
+    <path d="M120 128 H 400" />
+    <path d="M260 118 l3 8 8 3 -8 3 -3 8 -3 -8 -8 -3 8 -3 z" />
+
+    <path d="M196 152 C 172 176, 172 216, 196 240" />
+    <path d="M324 152 C 348 176, 348 216, 324 240" />
+    <path d="M196 152 q -10 -6 -16 -2" opacity="0.7" />
+    <path d="M324 152 q 10 -6 16 -2" opacity="0.7" />
+
+    <text
+      x="260"
+      y="176"
+      textAnchor="middle"
+      fill="currentColor"
+      stroke="none"
+      fontFamily="'Cormorant Garamond', serif"
+      fontSize="15"
+      letterSpacing="3"
+    >
+      FOOD, CULINARY &amp;
+    </text>
+    <text
+      x="260"
+      y="198"
+      textAnchor="middle"
+      fill="currentColor"
+      stroke="none"
+      fontFamily="'Cormorant Garamond', serif"
+      fontSize="15"
+      letterSpacing="3"
+    >
+      INFLUENCER AWARDS
+    </text>
+    <text
+      x="260"
+      y="226"
+      textAnchor="middle"
+      fill="currentColor"
+      stroke="none"
+      fontFamily="'Outfit', sans-serif"
+      fontSize="9"
+      letterSpacing="4"
+    >
+      HONOURED FOR CULINARY EXCELLENCE
+    </text>
+
+    <path d="M180 262 H 340" strokeDasharray="1 6" />
+    <text
+      x="260"
+      y="288"
+      textAnchor="middle"
+      fill="currentColor"
+      stroke="none"
+      fontFamily="'Outfit', sans-serif"
+      fontSize="9"
+      letterSpacing="5"
+    >
+      GACHIBOWLI STADIUM · HYDERABAD · 2026
+    </text>
+  </svg>
+);

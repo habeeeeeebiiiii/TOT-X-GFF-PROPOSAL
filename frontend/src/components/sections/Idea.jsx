@@ -1,4 +1,4 @@
-import { Storefront, PhoneBadge } from "../illustrations";
+import { Storefront, PhoneBadge, PlaqueDesign } from "../illustrations";
 import { ChapterHeading, FadeUp } from "../motion";
 
 const Idea = () => (
@@ -33,6 +33,20 @@ const Idea = () => (
             <p data-testid="culinary-disclaimer" className="text-xs tracking-wide text-[#f7f4ee]/45 mt-6 italic">
               These are illustrative examples of category fit, not confirmed participants.
             </p>
+          </FadeUp>
+          <FadeUp delay={0.25}>
+            <figure
+              data-testid="plaque-reveal"
+              className="mt-12 border border-[#c9a24b]/40 p-6 sm:p-10 relative"
+            >
+              <span className="absolute -top-3 left-6 bg-[#0d0d0d] px-4 overline">
+                A first look at the plaque
+              </span>
+              <PlaqueDesign className="w-full text-[#c9a24b] drop-shadow-[0_0_36px_rgba(201,162,75,0.12)]" />
+              <figcaption className="text-center text-[10px] tracking-[0.3em] uppercase text-[#f7f4ee]/35 mt-6">
+                Co-branded, mounted permanently on the winner's wall
+              </figcaption>
+            </figure>
           </FadeUp>
         </div>
 

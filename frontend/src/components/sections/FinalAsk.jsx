@@ -7,7 +7,7 @@ const MAILTO =
 const FinalAsk = () => (
   <section data-testid="final-ask-section" className="bg-[#1c1a17] py-28 lg:py-40 relative overflow-hidden">
     <div className="max-w-7xl mx-auto px-6">
-      <ChapterHeading number="07" label="The ask, and the investment" title="Let's Build The Award That Doesn't Come Down" />
+      <ChapterHeading number="07" label="The ask" title="Let's Build The Award That Doesn't Come Down" />
 
       <div className="grid lg:grid-cols-12 gap-16 mt-16 items-start">
         <FadeUp delay={0.15} className="lg:col-span-5 order-2 lg:order-1 flex justify-center lg:justify-start">
@@ -29,22 +29,10 @@ const FinalAsk = () => (
           </FadeUp>
 
           <FadeUp delay={0.3}>
-            <div
-              data-testid="pricing-card"
-              className="mt-12 border border-[#c9a24b]/40 p-8 lg:p-12 relative"
-            >
-              <span className="absolute -top-3 left-8 bg-[#1c1a17] px-4 overline">The investment</span>
-              <p className="text-xs tracking-[0.24em] uppercase text-[#f7f4ee]/55">Presenting Partner</p>
-              <p data-testid="pricing-amount" className="font-headline font-light text-5xl lg:text-6xl text-[#c9a24b] mt-4">
-                ₹12,00,000
-              </p>
-              <p className="font-body font-light text-base leading-relaxed text-[#f7f4ee]/70 mt-8 max-w-xl">
-                This covers full presenting rights and branding across the Food, Culinary &amp; Influencer Awards
-                segment, as described throughout this proposal. All production, execution and marketing costs beyond
-                this are carried by Grand Food Fest. Triumphs of Talent is also welcome to bring additional sponsors
-                into the segment independently, at no cost or obligation to Grand Food Fest.
-              </p>
-            </div>
+            <p className="font-headline italic text-[#c9a24b] text-xl lg:text-2xl mt-10 border-l border-[#c9a24b]/50 pl-6 max-w-2xl">
+              If this direction feels right, we'd simply love to talk further — the categories, the judging, and the
+              shape of the partnership can all be shaped around a conversation.
+            </p>
           </FadeUp>
 
           <FadeUp delay={0.4}>
