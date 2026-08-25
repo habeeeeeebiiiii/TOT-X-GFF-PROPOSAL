@@ -37,13 +37,6 @@ const FinalAsk = () => (
 
           <FadeUp delay={0.4}>
             <div className="mt-12 flex flex-wrap items-center gap-8">
-              <a
-                data-testid="request-meeting-button"
-                href={MAILTO}
-                className="gold-btn bg-[#c9a24b] text-[#0d0d0d] px-10 py-5 text-sm tracking-[0.18em] uppercase font-medium hover:bg-[#f7f4ee]"
-              >
-                Request a meeting <span className="ml-2">→</span>
-              </a>
               <div data-testid="contact-details" className="text-sm font-light text-[#f7f4ee]/65 leading-relaxed">
                 <p className="text-[#f7f4ee]">Habeeb Ali</p>
                 <p>Founder &amp; CEO, Hanfim Foods LLP</p>

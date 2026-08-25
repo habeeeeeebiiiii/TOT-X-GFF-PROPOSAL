@@ -36,7 +36,8 @@ A premium one-page proposal website convincing Triumphs of Talent (ToT) to prese
 - "A first look at the plaque" reveal added to the Culinary Awards block: detailed engraved line-art plaque (PlaqueDesign SVG) in a framed treatment; real plaque photo can be swapped into the same frame once the user shares it.
 - Contact block: Habeeb Ali, Founder & CEO, Hanfim Foods LLP · +91 93539 94283 · habeeb@grandfoodfest.com.
 - data-testid attributes on all interactive/key elements.
-- Verified: desktop + mobile screenshots of all sections, plaque reveal, pricing removal (no ₹ on page), mailto href.
+- Verified: desktop + mobile screenshots of all sections, plaque reveal (arches no longer overlap text), pricing removal (no ₹ on page), mailto href.
+- 2 Aug 2026 (later): removed ALL "Request a meeting" buttons (header + final section) per user; final section now leads straight to Habeeb's contact details. Fixed PlaqueDesign laurel arcs overlapping the centre text — arcs moved outward (x148/x372).
 
 ## Backlog
 - P1: Plaque/badge design preview gallery (line-art) once designs exist.

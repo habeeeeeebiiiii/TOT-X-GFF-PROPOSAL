@@ -20,13 +20,6 @@ const Header = () => (
         <span className="hidden lg:block text-xs tracking-[0.18em] uppercase text-[#f7f4ee]/50">
           9–11 October 2026 · Hyderabad
         </span>
-        <a
-          data-testid="header-meeting-button"
-          href="mailto:habeeb@grandfoodfest.com?subject=Meeting%20Request%20%E2%80%94%20Food%2C%20Culinary%20%26%20Influencer%20Awards"
-          className="gold-btn border border-[#c9a24b]/60 text-[#c9a24b] text-xs tracking-[0.18em] uppercase px-5 py-2.5 hover:bg-[#c9a24b] hover:text-[#0d0d0d]"
-        >
-          Request a meeting
-        </a>
       </div>
     </div>
   </motion.header>
