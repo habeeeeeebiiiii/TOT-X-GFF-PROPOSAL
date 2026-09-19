@@ -35,6 +35,22 @@ const FinalAsk = () => (
             </p>
           </FadeUp>
 
+          <FadeUp delay={0.35}>
+            <div
+              data-testid="investment-card"
+              className="mt-12 max-w-md border border-[#c9a24b]/30 bg-[#0d0d0d]/40 px-8 py-8"
+            >
+              <p className="text-[10px] tracking-[0.3em] uppercase text-[#c9a24b]">Presenting Partner</p>
+              <p className="font-headline font-light text-[#f7f4ee] text-4xl lg:text-5xl tracking-tight mt-3">
+                ₹5,00,000
+              </p>
+              <p className="font-body font-light text-sm text-[#f7f4ee]/55 leading-relaxed mt-4">
+                A single, all-inclusive figure covering the full Food, Culinary &amp; Influencer Awards segment inside
+                Grand Food Fest 2026.
+              </p>
+            </div>
+          </FadeUp>
+
           <FadeUp delay={0.4}>
             <div className="mt-12 flex flex-wrap items-center gap-8">
               <div data-testid="contact-details" className="text-sm font-light text-[#f7f4ee]/65 leading-relaxed">
